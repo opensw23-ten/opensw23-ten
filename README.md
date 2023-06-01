@@ -27,14 +27,17 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec
 ## Analysis/Visualization
 
 ## Installation  
-요구 사항 :  
+### Requirements
+OS : Windows 10 이상, Linux Ubuntu 20.04 버전 실행 확인
 Python 버전 3.6 이상, 3.8 이하  
-Pytorch 1(1.0.0) 이상 with CUDA (<https://pytorch.org/get-started/previous-versions/> 참고)  
+아래 명령어로 [Pytorch 설치](https://pytorch.org/get-started/previous-versions/)  
+pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
 pip를 이용하여 나머지 모듈 설치 : pip install -r requirements.txt  
 
 ### Quick Start  
-python quick_start.py -u --input_text "input"을 실행합니다. 이때 "input"에는 원하는 문자열을 넣을 수 있습니다.  
-
+아래 명령어로 TTS 프로그램을 실행합니다.  
+python quick_start.py -u --input_text "input"  
+이때 "input"에는 원하는 문자열을 넣을 수 있습니다.  
 
 input 1 : Hello my name is konkuk.  
 input 2 : We are opensource software team ten.  
@@ -42,7 +45,5 @@ input 3 : Are you Konkuk university student?
 input 4 : You look nice today!  
 input 5 : hello, we are majoring computer science.  
 input 6 : 안녕하세요! 저희 팀 이름은 TEN입니다!  
-
-
 
 ## Presentation
