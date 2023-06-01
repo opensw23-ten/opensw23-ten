@@ -13,7 +13,7 @@ Text-To-Speech project
 ![TTS_System](https://upload.wikimedia.org/wikipedia/commons/b/b5/TTS_System.svg)  
 img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg   
 
-저희가 선택한 오픈소스는 TTS입니다.
+**저희가 선택한 오픈소스는 TTS입니다.**
 
 - TTS(Text to Speech)는 '음성합성'으로 일정한 음성 단위로 분할한 후 입력받은 텍스트를 따라 필요한 음성단위들을 이어 붙여 말소리를 인위적으로 만들어 내는 기술입니다.
 - python quick_start.py -u --input_text "샘플 텍스트" 커맨드를 사용해 사용자가 입력한 샘플 텍스트를 음성으로 바꿔줍니다.  
