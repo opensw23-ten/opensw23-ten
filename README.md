@@ -41,7 +41,7 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86
 
 ## Installation  
 ### Requirements
-OS : Windows 10 이상, Linux Ubuntu 20.04 버전 실행 확인
+OS : Windows 10 이상, Linux Ubuntu 20.04 버전 실행 확인  
 Python 버전 3.6 이상, 3.8 이하  
 - 아래 명령어로 [Pytorch 설치](https://pytorch.org/get-started/previous-versions/)  
 > pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
