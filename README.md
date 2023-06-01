@@ -26,35 +26,23 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec
 
 ## Analysis/Visualization
 
-## Installation
-Python >= 3.6
-Pytorch 1(1.0.0) with CUDA
-pip를 이용하여 나머지를 설치 합니다 :
-  pip install -r requirements.txt
+## Installation  
+요구 사항 :  
+Python 버전 3.6 이상, 3.8 이하  
+Pytorch 1(1.0.0) 이상 with CUDA (<https://pytorch.org/get-started/previous-versions/> 참고)  
+pip를 이용하여 나머지 모듈 설치 : pip install -r requirements.txt  
 
-## Use
-# Quick Start
-빠르게 간단한 결과를 얻고 싶으면 quik_start를 이용합니다:
-  python quick_start.py -u --input_text "샘플데이터"
-# Trainin own Models
-1 - Tacotron을 트레이닝시킵니다:
-  python train_tacotron.py
+### Quick Start  
+python quick_start.py -u --input_text "input"을 실행합니다. 이때 "input"에는 원하는 문자열을 넣을 수 있습니다.  
 
-2 - 트레이닝이 끝나거나 언제든지 끝낼 수 있습니다(이렇게 하면 훈련이 완료되지 않은 경우에도 택트론이 GTA 데이터 세트를 강제로 생성합니다.):
-  python train_tacotron.py --force_gta
 
-3 - WaveRNN을 트레이닝시킵니다:
-  python train_wavernn.py --gta
+input 1 : Hello my name is konkuk.  
+input 2 : We are opensource software team ten.  
+input 3 : Are you Konkuk university student?  
+input 4 : You look nice today!  
+input 5 : hello, we are majoring computer science.  
+input 6 : 안녕하세요! 저희 팀 이름은 TEN입니다!  
 
-참고: TTS에 관심이 없다면 --gta 없이 train_wavernn.py만 실행해도 됩니다.
-
-4 - 두 모델을 모두 사용하여 문장 생성하기
-기본 문장 생성:
-  python gen_tacotron.py wavernn
-사용자 지정 문장 생성:
-  python gen_tacotron.py --input_text "넣고싶은 input text" wavernn
-
-(언제든지 해당 스크립트에서 --help를 사용하여 사용 가능한 옵션을 확인할 수 있습니다.)
 
 
 ## Presentation
