@@ -15,7 +15,7 @@ https://github.com/fatchord/WaveRNN
 - python quick_start.py -u --input_text "샘플 텍스트" 커맨드를 사용해 사용자가 입력한 샘플 텍스트를 음성으로 바꿔줍니다.  
 - 자신만의 모델을 트레이닝 시킬 수 있습니다.
 
-샘플데이터를 사용한 Result는 아래와 같습니다.
+샘플데이터를 사용한 [Results](#results)는 아래와 같습니다.
 ## Results
 ### Inputs
 - 주의 사항  
