@@ -8,7 +8,10 @@ Text-To-Speech project
 ## Topic Introduction
 ### References
 1. https://github.com/fatchord/WaveRNN  
-2. [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435)
+2. [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435)  
+
+![TTS_System](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/ad357c2f-0592-4048-a37a-f9f1840301a6)  
+img source : https://ko.wikipedia.org/wiki/%EC%9D%8C%EC%84%B1_%ED%95%A9%EC%84%B1  
 
 저희가 선택한 오픈소스는 TTS입니다.
 
