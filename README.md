@@ -112,4 +112,5 @@ python quick_start.py
 > 5. Generative adversarial network or variational auto-encoder.  
 > 6. Basilar membrane and otolaryngology are not auto-correlations.  
 
+- **생성된 wav파일은 새로 생성되는 quick_start폴더 아래 위치합니다.**
 ## Presentation
