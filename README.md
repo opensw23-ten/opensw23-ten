@@ -55,6 +55,7 @@ Pytorch 1 이상 With CUDA
 - 해당 repository를 clone합니다.
 ```
 git clone https://github.com/opensw23-ten/opensw23-ten.git
+cd opensw23-ten
 ```
 
 - 아래 명령어로 [Pytorch 설치](https://pytorch.org/get-started/previous-versions/)  
