@@ -20,7 +20,8 @@ https://github.com/fatchord/WaveRNN
 ### Inputs
 - 주의 사항  
 1. 특정 브라우저(크롬 등)에서 실행 시, 정책에 의해 음소거되어 있을 수 있어 음소거 해제 후 청취 가능합니다.
-2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다. (기존 확장명 : .wav)
+2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다.  
+(기존 확장명 : .wav)
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
 #### 2. Hello, we are majoring computer science.
