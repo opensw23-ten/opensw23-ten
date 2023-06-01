@@ -31,8 +31,9 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec
 OS : Windows 10 이상, Linux Ubuntu 20.04 버전 실행 확인
 Python 버전 3.6 이상, 3.8 이하  
 아래 명령어로 [Pytorch 설치](https://pytorch.org/get-started/previous-versions/)  
-pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
-pip를 이용하여 나머지 모듈 설치 : pip install -r requirements.txt  
+> pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
+아래 명령어로 나머지 모듈 설치  
+> pip install -r requirements.txt  
 
 ### Quick Start  
 아래 명령어로 TTS 프로그램을 실행합니다.  
