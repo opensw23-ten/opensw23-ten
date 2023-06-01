@@ -17,27 +17,28 @@ https://github.com/fatchord/WaveRNN
 
 샘플데이터를 사용한 Result는 아래와 같습니다.
 ## Results
-https://opensw23-ten.github.io/sample/
 ### Inputs
 - 주의 사항  
 1. 특정 브라우저(크롬 등)에서 실행 시, 정책에 의해 음소거되어 있을 수 있어 음소거 해제 후 청취 가능합니다.
 2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다. (기존 확장명 : .wav)
-#### Hello my name is konkuk.
+#### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
-#### Hello, we are majoring computer science.
+#### 2. Hello, we are majoring computer science.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/940604f4-d15b-4795-98f6-31e2275fee3b
-#### Today is June first.
+#### 3. Today is June first.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/499bba74-2bab-45f6-8426-27ea118e4cc4
-#### Topic of this class is opensource.
+#### 4. Topic of this class is opensource.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d77f7c28-01f2-466f-b6c9-4a4d76c3be62
-#### We are opensource software team ten!
+#### 5. We are opensource software team ten!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7354ab80-2703-4a96-a377-1e1d4fa916e0
-#### This is the result of sample text!
+#### 6. This is the result of sample text!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/c7c2cb7f-b8ec-40fd-904d-decd95ef4499
-#### 안녕하세요! 저희 팀 이름은 TEN입니다.
+#### 7. 안녕하세요! 저희 팀 이름은 TEN입니다.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/cf28a3dd-3d8e-4dc6-9344-d8568cf341e6
-#### 배가 너무 고파요!
+#### 8. 배가 너무 고파요!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86-88aa-4d3b88d2ee22
+
+더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
 ## Analysis/Visualization
 
@@ -46,6 +47,11 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86
 OS : Windows 10 이상, Linux Ubuntu 20.04 버전 실행 확인  
 Python 버전 3.6 이상, 3.8 이하  
 Pytorch 1 이상 With CUDA
+- 해당 repository를 clone합니다.
+```
+git clone https://github.com/opensw23-ten/opensw23-ten.git
+```
+
 - 아래 명령어로 [Pytorch 설치](https://pytorch.org/get-started/previous-versions/)  
 ```
 pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --index-url https://download.pytorch.org/whl/cu118  
@@ -95,4 +101,11 @@ python quick_start.py -u --input_text "input"
 ```
 python quick_start.py
 ```
+> 1. Scientists at the CERN laboratory say they have discovered a new particle.  
+> 2. There's a way to measure the acute emotional intelligence that has never gone out of style.  
+> 3. President Trump met with other leaders at the Group of 20 conference.  
+> 4. The Senate's bill to repeal and replace the Affordable Care-Act is now imperiled.  
+> 5. Generative adversarial network or variational auto-encoder.  
+> 6. Basilar membrane and otolaryngology are not auto-correlations.  
+
 ## Presentation
