@@ -7,7 +7,6 @@ Text-To-Speech project
   김수형 : 202211276 발표자  
 ## Topic Introduction
 ### References
-## Topic Introduction
 https://github.com/fatchord/WaveRNN
 
 저희가 선택한 오픈소스는 TTS입니다.
