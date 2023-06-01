@@ -62,7 +62,7 @@ pip install torch==2.0.0+cu118 torchvision==0.15.1+cu118 torchaudio==2.0.1 --ind
 ```
 pip install -r requirements.txt  
 ```
-만약 설치 중 오류가 발생한다면
+**만약 설치 중 오류가 발생한다면**
 1. 'numba'패키지가 설치되어 있는지 확인합니다. 만약 설치가 안되어 있다면 아래 명령어를 통해 설치를 합니다.
 ```
 pip install numba
