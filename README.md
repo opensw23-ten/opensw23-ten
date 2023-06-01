@@ -87,7 +87,7 @@ python quick_start.py -u --input_text "input"
 ```
 
 이때 "input"에는 원하는 문자열을 넣을 수 있습니다.  
-아래 input을 넣게 되면 위 sample과 같은 결과를 얻을 수 있습니다.
+아래 input을 넣게 되면 위 [Results](#results)와 같은 결과를 얻을 수 있습니다.
 > input 1 : Hello my name is konkuk.  
 > input 2 : Hello, we are majoring computer science.  
 > input 3 : Today is June first.  
