@@ -44,7 +44,7 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/c2835e2d-38db-4963
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/9102158a-02c1-469d-bf12-b60fc24daa35
 
 ### User input
-*[ python quick_start.py --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.*
+*[ python quick_start.py -u --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.*
 - 8개의 input으로 파일 생성
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
