@@ -50,7 +50,8 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2240ad2a-2202-4a7f
 > 영어 한문장, 한글 한문장을 동시에 input으로 넣게 되면 문장 끝에 오류가 생깁니다.
 #### 7. First sentance for test. Second sentance for test!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/8d79e01d-a4a7-457b-ac91-1d0f50c49b09
-> 영어로 구성된 두 개의 문장이면 정상적인 발음으로 생성됩니다.
+> 영어로 구성된 두 개의 문장이면 정상적인 발음으로 생성됩니다.  
+
 더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
 ## Analysis/Visualization
