@@ -10,7 +10,7 @@ Text-To-Speech project
 1. https://github.com/fatchord/WaveRNN  
 2. [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435)  
 
-![TTS구조](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d72feddc-9444-441f-b2c5-60c4d4b63b3f)
+![TTS구조](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d72feddc-9444-441f-b2c5-60c4d4b63b3f)  
 img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg   
 
 **저희가 선택한 오픈소스는 TTS입니다.**
