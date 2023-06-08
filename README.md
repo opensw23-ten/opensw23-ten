@@ -26,6 +26,24 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 1. 특정 브라우저(크롬 등)에서 실행 시, 정책에 의해 음소거되어 있을 수 있어 음소거 해제 후 청취 가능합니다.
 2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다.  
 (기존 확장명 : .wav)
+3. 현재 해당 모델은 영어로 학습되었음을 알려드립니다.
+### Default input
+*[ python quick_start.py ] 를 실행하여 defalut 문장으로 생성된 음성파일입니다.*  
+#### 1. Scientists at the CERN laboratory say they have discovered a new particle.
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/219ab256-f910-4513-98b8-d13fad673995
+#### 2. There's a way to measure the acute emotional intelligence that has never gone out of style.  
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/e8af7b4d-29f3-4b27-baa6-c5498801e17e
+#### 3. President Trump met with other leaders at the Group of 20 conference.  
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/94bc8df2-fd03-4c98-ac49-cdc438d8972f
+#### 4. The Senate's bill to repeal and replace the Affordable Care-Act is now imperiled.  
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/f6825aab-d57b-44d7-b743-42e2b7a9cf7f
+#### 5. Generative adversarial network or variational auto-encoder.  
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/c2835e2d-38db-4963-95f4-8b172b7e7a78
+#### 6. Basilar membrane and otolaryngology are not auto-correlations.  
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/9102158a-02c1-469d-bf12-b60fc24daa35
+
+### User input
+*[ python quick_start.py --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.*
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
 #### 2. Hello, we are majoring computer science.
@@ -46,6 +64,8 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86
 더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
 ## Analysis/Visualization
+1. 음성으로 변환할 text를 입력할 때, 문장의 끝을 알려주는 '.' , '!' , '?'가 들어가지 않으면 음성파일이 제대로 끝나지 않는 현상이 발생한다.
+2. 영어로 
 
 ## Installation  
 ### Requirements
