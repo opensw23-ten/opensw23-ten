@@ -17,7 +17,6 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 
 - TTS(Text to Speech)는 '음성합성'으로 일정한 음성 단위로 분할한 후 입력받은 텍스트를 따라 필요한 음성단위들을 이어 붙여 말소리를 인위적으로 만들어 내는 기술입니다.
 - python quick_start.py -u --input_text "샘플 텍스트" 커맨드를 사용해 사용자가 입력한 샘플 텍스트를 음성으로 바꿔줍니다.  
-- 자신만의 모델을 트레이닝 시킬 수 있습니다.
 
 샘플데이터를 사용한 [Results](#results)는 아래와 같습니다.
 ## Results
@@ -27,54 +26,42 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다.  
 (기존 확장명 : .wav)
 3. 현재 해당 모델은 [LJ Speech](https://keithito.com/LJ-Speech-Dataset/) 영어 data로 학습되었음을 알려드립니다.
-### Default input
-*[ python quick_start.py ] 를 실행하여 default 문장으로 생성된 음성파일입니다.*  
-- 6개의 default값으로 파일 생성
-#### 1. Scientists at the CERN laboratory say they have discovered a new particle.
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/219ab256-f910-4513-98b8-d13fad673995
-#### 2. There's a way to measure the acute emotional intelligence that has never gone out of style.  
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/e8af7b4d-29f3-4b27-baa6-c5498801e17e
-#### 3. President Trump met with other leaders at the Group of 20 conference.  
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/94bc8df2-fd03-4c98-ac49-cdc438d8972f
-#### 4. The Senate's bill to repeal and replace the Affordable Care-Act is now imperiled.  
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/f6825aab-d57b-44d7-b743-42e2b7a9cf7f
-#### 5. Generative adversarial network or variational auto-encoder.  
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/c2835e2d-38db-4963-95f4-8b172b7e7a78
-#### 6. Basilar membrane and otolaryngology are not auto-correlations.  
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/9102158a-02c1-469d-bf12-b60fc24daa35
+4. [ python quick_start.py -u --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.
+5. 영어 Text 10개, 한글 Text 10개, 혼합 Text 10개, 문장 여러개로 구성된 Text 10개를 실행했습니다.  
+***다음은 대표 Output입니다.***
 
-### User input
-*[ python quick_start.py -u --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.*
-- 8개의 input으로 파일 생성
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
-#### 2. Hello, we are majoring computer science.
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/940604f4-d15b-4795-98f6-31e2275fee3b
-#### 3. Today is June first.
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/499bba74-2bab-45f6-8426-27ea118e4cc4
-#### 4. Topic of this class is opensource.
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d77f7c28-01f2-466f-b6c9-4a4d76c3be62
-#### 5. We are opensource software team ten!
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7354ab80-2703-4a96-a377-1e1d4fa916e0
-#### 6. This is the result of sample text!
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/c7c2cb7f-b8ec-40fd-904d-decd95ef4499
-#### 7. 안녕하세요! 저희 팀 이름은 TEN입니다.
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/cf28a3dd-3d8e-4dc6-9344-d8568cf341e6
-#### 8. 배가 너무 고파요!
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86-88aa-4d3b88d2ee22
+> 영어로 구성된 Text는 정확한 발음을 하는 음성이 생성됩니다.
+#### 2. 
 
+> 문장이 끝나는 것을 알려주지 않으면 음성파일이 늘어지게 됩니다.
+#### 3. 배가 너무 고파요!
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86-88aa-4d3b88d2ee22
+> 한국어로 구성된 문장은 어눌한 발음으로 생성됩니다.
+#### 4. 영화 트루먼쇼의 명대사는 In case I don't see you, Good afternoon, Good evening, and Good night.입니다.
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2d984469-3949-4dc8-ae6a-8575ff17ff7c
+> 한국어와 영어가 섞인 문장에서는 한국어 발음은 어눌하지만 영어는 제대로 발음되는 것을 확인했습니다.
+#### 5. 불닭볶음면은 많이 맵습니다.
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/9f7b5655-adf7-4ad4-8bb0-3674428ba7ca
+> 받침이 많은 문장은 기존 한국어로 된 문장보다 더 좋지 않은 발음으로 생성됩니다.
+#### 6. This is English Sample Text for collaboration with Korean. 그리고 이건 영어와 같이 사용하기 위한 한국어 샘플 파일입니다!
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2240ad2a-2202-4a7f-8039-fe14a6dca8c0
+> 영어 한문장, 한글 한문장을 동시에 input으로 넣게 되면 문장 끝에 오류가 생깁니다.
 더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
 ## Analysis/Visualization
-1. 음성으로 변환할 text를 입력할 때, 문장의 끝을 알려주는 '.' , '!' , '?'가 들어가지 않으면 음성파일이 제대로 끝나지 않는 현상이 발생합니다.
-  
-2. 영어 데이터로 학습된 모델에 한국어를 넣어 실행시켜 보아도 정확하지 않지만 알아들을 수 있을 정도의 음성파일을 생성합니다.  
+1. 영어로 구성된 TEXT는 제대로 된 음성을 제공합니다.
+2. 음성으로 변환할 text를 입력할 때, 문장의 끝을 알려주는 '.' , '!' , '?'가 들어가지 않으면 음성파일이 제대로 끝나지 않는 현상이 발생합니다.
+3. 영어 데이터로 학습된 모델에 한국어를 넣어 실행시켜 보아도 정확하지 않지만 알아들을 수 있을 정도의 음성파일을 생성합니다.  
     * 이는 unicodedata 라이브러리를 통해 한글 문자를 초성, 중성, 종성으로 구분되어 해당 음절을 바탕으로 생성할 수 있기 때문입니다.  
 4. 저희 목소리로 녹음 후 학습 모델을 생성해보았습니다.
     * 학습 횟수 : 3472회 / 데이터 개수 : 223개 / Loss : 2.904 -> 0.4316 / 약 8시간 소요
     * 그래프가 오른쪽 아래 일직선 형태로 뚜렷한 선이 나오면 제대로 학습된 모델이지만 데이터셋과 시간 부족으로 끝까지 학습되지 않음
     * 2000회 이상 학습 후, Loss값은 감소하지만 그래프 상에서 뚜렷한 변화가 보이지 않는 것을 관찰함.
-    * 출력된 음성은 많은 잡음이 섞여서 나오게 됨.  ***잡음이 많이 섞여 재생됩니다. 유의해주세요.***  
+    * 정확한 학습을 위해선 충분히 많은 데이터 개수와 학습 시간이 필요하다는 것을 알게 됨.  
+      ( 기존 모델 학습 데이터 개수는 13100개 )
+    * 충분히 학습이 되지 않고 출력된 음성은 많은 잡음이 섞여서 나오게 됨.  ***잡음이 많이 섞여 재생됩니다. 유의해주세요.***  
 
 **input :  안녕하세요 제 이름은 건국.**
 
