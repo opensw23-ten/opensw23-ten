@@ -26,7 +26,7 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 1. 특정 브라우저(크롬 등)에서 실행 시, 정책에 의해 음소거되어 있을 수 있어 음소거 해제 후 청취 가능합니다.
 2. 해당 예시 파일은 readme.md에 업로드하기 위해 확장명이 .mp4로 변경되었음을 알려드립니다.  
 (기존 확장명 : .wav)
-3. 현재 해당 모델은 영어로 학습되었음을 알려드립니다.
+3. 현재 해당 모델은 [LJ Speech](https://keithito.com/LJ-Speech-Dataset/) 영어 data로 학습되었음을 알려드립니다.
 ### Default input
 *[ python quick_start.py ] 를 실행하여 defalut 문장으로 생성된 음성파일입니다.*  
 #### 1. Scientists at the CERN laboratory say they have discovered a new particle.
@@ -65,7 +65,11 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86
 
 ## Analysis/Visualization
 1. 음성으로 변환할 text를 입력할 때, 문장의 끝을 알려주는 '.' , '!' , '?'가 들어가지 않으면 음성파일이 제대로 끝나지 않는 현상이 발생한다.
-2. 영어로 
+2. 영어 데이터로 학습된 모델에 한국어를 넣어 실행시켜 보아도 정확하지 않지만 알아들을 수 있을 정도의 음성파일을 생성해낸다.
+    * 이는 unicodedata 라이브러리를 통해 한글 문자를 초성, 중성, 종성으로 구분되어 해당 음절을 바탕으로 생성할 수 있기 때문입니다.
+3. 저희 목소리로 녹음 후 학습을 진행함
+    * 학습 횟수 : 3472회 / Loss : 0.4316
+![attention](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/ac03837a-2aec-4d98-bf57-cb35d7359bcf)
 
 ## Installation  
 ### Requirements
