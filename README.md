@@ -1,10 +1,10 @@
 # opensw23-ten
 Text-To-Speech project
 ## Team Introduction
-  김영준 : 201911162 리더  
-  박상준 : 201911173 코더  
-  신민석 : 202011316 github expert  
-  김수형 : 202211276 발표자  
+  김영준 : 201911162 리더 / 발표자  
+  박상준 : 201911173 테스터 / ppt제작  
+  신민석 : 202011316 데이터셋 제작  
+  김수형 : 202211276 데이터셋 제작  
 ## Topic Introduction
 ### References
 1. https://github.com/fatchord/WaveRNN  
