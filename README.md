@@ -28,7 +28,7 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 (기존 확장명 : .wav)
 3. 현재 해당 모델은 [LJ Speech](https://keithito.com/LJ-Speech-Dataset/) 영어 data로 학습되었음을 알려드립니다.
 ### Default input
-*[ python quick_start.py ] 를 실행하여 defalut 문장으로 생성된 음성파일입니다.*  
+*[ python quick_start.py ] 를 실행하여 default 문장으로 생성된 음성파일입니다.*  
 - 6개의 default값으로 파일 생성
 #### 1. Scientists at the CERN laboratory say they have discovered a new particle.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/219ab256-f910-4513-98b8-d13fad673995
