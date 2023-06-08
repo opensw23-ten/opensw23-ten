@@ -166,3 +166,5 @@ python quick_start.py
 
 - **생성된 wav파일은 새로 생성되는 quick_start폴더 아래 위치합니다.**
 ## Presentation
+[![Video Label](http://img.youtube.com/vi/3PRatFzHmbs/0.jpg)](https://youtu.be/3PRatFzHmbs)  
+***해당 이미지 클릭 시, youtube로 이동합니다***
