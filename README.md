@@ -74,7 +74,9 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86
     * 2000회 이상 학습 후, Loss값은 감소하지만 그래프 상에서 뚜렷한 변화가 보이지 않는 것을 관찰함.
     * 출력된 음성은 많은 잡음이 섞여서 나오게 됨.  ***잡음이 많이 섞여 재생됩니다. 유의해주세요.***  
 
-https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2019485e-84c4-4b36-9b94-2448df392b51
+**input :  안녕하세요 제 이름은 건국.**
+
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/856c392f-88e4-44a7-ac27-c94a3f278b89
 
 ![attention](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/ac03837a-2aec-4d98-bf57-cb35d7359bcf)
 
