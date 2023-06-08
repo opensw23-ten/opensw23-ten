@@ -10,7 +10,7 @@ Text-To-Speech project
 1. https://github.com/fatchord/WaveRNN  
 2. [Efficient Neural Audio Synthesis](https://arxiv.org/abs/1802.08435)  
 
-![TTS_System](https://upload.wikimedia.org/wikipedia/commons/b/b5/TTS_System.svg)  
+![TTS구조](https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d72feddc-9444-441f-b2c5-60c4d4b63b3f)
 img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg   
 
 **저희가 선택한 오픈소스는 TTS입니다.**
@@ -33,8 +33,8 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
 > 영어로 구성된 Text는 정확한 발음을 하는 음성이 생성됩니다.
-#### 2. 
-
+#### 2. hello, my name is joon
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/d8ecbd73-c782-48d6-8171-4efefa9117be
 > 문장이 끝나는 것을 알려주지 않으면 음성파일이 늘어지게 됩니다.
 #### 3. 배가 너무 고파요!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/1dfa34d3-757a-4c86-88aa-4d3b88d2ee22
@@ -48,6 +48,9 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/9f7b5655-adf7-4ad4
 #### 6. This is English Sample Text for collaboration with Korean. 그리고 이건 영어와 같이 사용하기 위한 한국어 샘플 파일입니다!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2240ad2a-2202-4a7f-8039-fe14a6dca8c0
 > 영어 한문장, 한글 한문장을 동시에 input으로 넣게 되면 문장 끝에 오류가 생깁니다.
+#### 7. First sentance for test. Second sentance for test!
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/8d79e01d-a4a7-457b-ac91-1d0f50c49b09
+> 영어로 구성된 두 개의 문장이면 정상적인 발음으로 생성됩니다.
 더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
 ## Analysis/Visualization
