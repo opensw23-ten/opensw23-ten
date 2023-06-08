@@ -28,7 +28,7 @@ img source : https://commons.wikimedia.org/wiki/File:TTS_System.svg
 3. 현재 해당 모델은 [LJ Speech](https://keithito.com/LJ-Speech-Dataset/) 영어 data로 학습되었음을 알려드립니다.
 4. [ python quick_start.py -u --input_text "input" ] 에서 input값을 변경하며 생성된 음성파일입니다.
 5. 영어 Text 10개, 한글 Text 10개, 혼합 Text 10개, 문장 여러개로 구성된 Text 10개를 실행했습니다.  
-***다음은 대표 Output입니다.***
+***다음은 대표 Output 8개입니다.***
 
 #### 1. Hello my name is konkuk.
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/7d2a7afc-7bce-4fec-84d9-07269d3846c3
@@ -51,6 +51,9 @@ https://github.com/opensw23-ten/opensw23-ten/assets/127181370/2240ad2a-2202-4a7f
 #### 7. First sentance for test. Second sentance for test!
 https://github.com/opensw23-ten/opensw23-ten/assets/127181370/8d79e01d-a4a7-457b-ac91-1d0f50c49b09
 > 영어로 구성된 두 개의 문장이면 정상적인 발음으로 생성됩니다.  
+#### 8. 첫 번째 문장입니다. 두 번째 문장입니다.
+https://github.com/opensw23-ten/opensw23-ten/assets/127181370/6ef357d1-c6d7-4698-8014-5f7ff9c21cf6
+> 한글로 구성된 두 개의 문장이면 많이 어눌한 발음으로 생성됩니다.
 
 더 많은 예시가 궁금하시다면 [클릭](https://opensw23-ten.github.io/sample/)
 
@@ -125,13 +128,13 @@ python quick_start.py -u --input_text "input"
 
 ***주의사항 : 문장에 끝에는 끝을 알 수 있는 '.' or '!' or '?'를 넣지 않을 시 오류가 발생할 수 있습니다.***
 > input 1 : Hello my name is konkuk.  
-> input 2 : Hello, we are majoring computer science.  
-> input 3 : Today is June first.  
-> input 4 : Topic of this class is opensource.  
-> input 5 : We are opensource software team ten!  
-> input 6 : This is the result of sample text!  
-> input 7 : 안녕하세요! 저희 팀 이름은 TEN입니다.  
-> input 8 : 배가 너무 고파요!  
+> input 2 : hello, my name is joon  
+> input 3 : 배가 너무 고파요!  
+> input 4 : 영화 트루먼쇼의 명대사는 In case I don't see you, Good afternoon, Good evening, and Good night.입니다.  
+> input 5 : 불닭볶음면은 많이 맵습니다.  
+> input 6 : This is English Sample Text for collaboration with Korean. 그리고 이건 영어와 같이 사용하기 위한 한국어 샘플 파일입니다!  
+> input 7 : First sentance for test. Second sentance for test!  
+> input 8 : 첫 번째 문장입니다. 두 번째 문장입니다.  
 
 - 만약 input 없이 명령어를 실행시키면 default로 설정된 6개의 text로 파일을 생성합니다.
 ```
